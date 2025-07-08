@@ -10,8 +10,9 @@ A self-directed, disciplined, and project-based journey to become a Front-End De
 
 ## 📘 About This Project
 
-This repository documents my personal learning path in frontend development.  
+This repository documents my personal learning path in frontend development. 
 Every folder represents a key topic I've studied, with focused practice, real application, and clear structure.
+All code in this repository is written manually based on actual understanding. I do not copy-paste code blindly — everything is typed, tested, and refined through real practice.
 
 > I believe mastering the fundamentals — such as the **Box Model**, **Typography**, **Flexbox**, and **Grid** — is more important than jumping straight into frameworks.  
 > This journey is not just about completing tasks, but building long-term understanding and **clean, scalable code**.
@@ -66,7 +67,7 @@ frontend-learning-journey/
 ## 📅 Timeline
 
 > **Started:** July 2025  
-> **Goal:** Full-Stack Developer ready under 1 year (by July 2026)
+> **Goal:** Full-Stack Developer ready under 1 year (before July 2026)
 
 ---
 
