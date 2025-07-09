@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, "Times New Roman", sans-serif;
+  background-color: #f4f4f4;
+  padding: 2rem;
+}
+
+.card {
+  background-color: #f4f4f4;
+  max-width: 400px;
+  margin: 0 auto 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card h2 {
+  background-color: #007bff;
+  color: #fff;
+  padding: 16px;
+  margin: 0;
+  border-radius: 12px 12px 0 0;
+}
+
+.card p {
+  padding: 0 16px;
+  margin: 16px 0;
+}
+
+.button-action {
+  display: block;
+  margin: 0 16px 16px;
+  padding: 8px 16px;
+  border: none;
+  background-color: #005f99;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.button-action:hover {
+  background-color: #3399ff;
+  color: #f4f4f4
+}
