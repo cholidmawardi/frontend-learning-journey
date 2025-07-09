@@ -1,41 +1,65 @@
+import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
 body {
+  font-family: 'Inter', Arial, sans-serif;
   background-color: #eee;
+  padding: 2rem;
+  color: #333;
 }
 
 .card {
   width: 400px;
-  padding: 8px;
   background-color: white;
   margin: 16px auto;
+  border-radius: 16px;
 }
 
 .title {
-  background: lightblue;
+  background: #305665;
+  border-radius: 16px 16px 0 0;
   padding: 8px;
-  margin-bottom: 8px;
 }
 
 .title h1 {
-  font-size: 16px;
+  font-size: 1.8rem;
+  color: white;
+  padding: 0 24px;
 }
 
 .content {
-  padding: 16px 8px;
-  margin-bottom: 8px;
+  padding: 8px;
+}
+
+.content p {
+  padding: 0 24px;
+  line-height: 1.4;
+  font-weight: 300;
 }
 
 .button-container {
-  padding: 8px;
-  text-align: center;
-  background: lightblue;
+  padding: 8px 24px;
+  font-weight: bold;
+  margin: 0 8px;
 }
 
 button {
   padding: 8px 24px;
-  display: block;
-  margin: 0 auto;
+  background-color: #fff;
+  margin-bottom: 24px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  padding: 8px 24px;
+  background-color: #305665;
+  color: #fff;
+  border: 1px solid #305665;
 }
