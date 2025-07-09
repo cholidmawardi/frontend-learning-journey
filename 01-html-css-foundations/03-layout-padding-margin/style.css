@@ -50,7 +50,7 @@ button {
   padding: 8px 24px;
   background-color: #fff;
   margin-bottom: 24px;
-  border: 1px solid #333;
+  border: 1px solid #ccc;
   border-radius: 6px;
   font-weight: 600;
   cursor: pointer;
@@ -59,7 +59,6 @@ button {
 
 button:hover {
   padding: 8px 24px;
-  background-color: #305665;
+  background-color: #333;
   color: #fff;
-  border: 1px solid #305665;
 }
