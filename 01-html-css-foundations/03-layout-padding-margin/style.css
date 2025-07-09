@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+.card {
+  width: 400px;
+  padding: 8px;
+  background-color: white;
+  margin: 16px auto;
+}
+
+.title {
+  background: lightblue;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+
+.title h1 {
+  font-size: 16px;
+}
+
+.content {
+  padding: 16px 8px;
+  margin-bottom: 8px;
+}
+
+.button-container {
+  padding: 8px;
+  text-align: center;
+  background: lightblue;
+}
+
+button {
+  padding: 8px 24px;
+  display: block;
+  margin: 0 auto;
+}
