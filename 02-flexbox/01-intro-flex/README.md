@@ -26,6 +26,19 @@ The initial version focused on positioning using `display: flex`, while the late
 
 ---
 
+## 📱 Responsive Update
+
+This version includes responsive enhancements to the `intro-flex` layout:
+
+- Navigation now adapts to small screens
+- Logo size adjusts based on viewport width
+- Layout remains proportional and readable under 400px
+- Simplified navigation by removing redundant "Home" link
+
+> Focused on real-world Flexbox use with minimal CSS — no media queries frameworks or JavaScript involved. 
+
+---
+
 ### 💻 Live Preview
 
 [🔗 View on GitHub Pages](https://cholidmawardi.github.io/frontend-learning-journey/02-flexbox/01-intro-flex/)
@@ -41,3 +54,4 @@ The initial version focused on positioning using `display: flex`, while the late
 ├── index.html
 ├── style.css
 └── README.md
+
