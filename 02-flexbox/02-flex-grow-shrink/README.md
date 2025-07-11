@@ -1,27 +1,33 @@
-# 02 - Flex Grow & Shrink
+# 02 - Flex Grow & Shrink (Responsive Version)
 
-This project demonstrates how `flex-grow`, `flex-shrink`, and `flex-basis` work in a flexible layout using CSS Flexbox.
+This project demonstrates how `flex-grow`, `flex-shrink`, and `flex-basis` work to build flexible and adaptive layouts using Flexbox.
 
-### 🧱 Concept
-
-Each `.feature` box uses different `flex` values to control how much space it takes relative to others when resizing the browser window.
-
-### ⚙️ Flex Settings
-
-| Feature | Flex value       | Explanation                                |
-|---------|------------------|--------------------------------------------|
-| A       | `2 1 200px`      | Grows twice as fast as others              |
-| B       | `1 1 150px`      | Balanced grow/shrink                       |
-| C       | `1 2 100px`      | Shrinks faster than others                 |
-| D       | `1 3 50px`       | Shrinks the fastest                        |
-
-### 📱 Resize Behavior
-
-Resize the browser to see how each box responds.  
-This layout is ideal for demonstrating proportional distribution of space.
+Originally a basic layout, it has been **improved** to handle different screen sizes using **media queries** and better spacing.
 
 ---
 
-✅ Built with HTML & CSS only, using Flexbox  
-✅ No JavaScript or frameworks  
-✅ Styling and spacing manually controlled
+## 📚 What I Learned
+
+- How to use the `flex` shorthand (`grow`, `shrink`, `basis`)
+- How to control how flex items expand and shrink
+- How to build a layout that **responds to viewport size**
+- How to use `gap` to space out elements cleanly
+- How to apply **media queries** to shift from horizontal to vertical layout
+
+---
+
+## 📱 Responsive Layout
+
+- **Large screens**: Horizontal layout with varied flex-grow/shrink ratios
+- **Small screens**: Stacked vertical layout using media queries
+- Smooth spacing and clean content flow
+
+---
+
+## 🌐 Live Preview
+
+[🔗 View Live on GitHub Pages](https://cholidmawardi.github.io/frontend-learning-journey/02-flexbox/02-flex-grow-shrink/)
+
+---
+
+> 🛠️ Built from scratch and styled manually using only CSS and Flexbox — no frameworks.
