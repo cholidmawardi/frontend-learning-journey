@@ -1,0 +1,100 @@
+body {
+    margin: 8px;
+}
+  
+.header {
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  background: #ABD7EB;
+  border: 1px solid darkgreen;
+  padding: 8px;
+}
+  
+.logo, .nav, .nav-links {
+  flex: 1;
+  background: #FED8B1;
+  border: 1px solid brown;
+}
+  
+.nav-links {
+  display: flex;
+  padding: 4px;
+  gap: 4px;
+  
+}
+
+.nav-link {
+  flex: 1;
+  background: lightcoral;
+  border: 1px solid brown;
+  margin: 8px 0;
+  
+}
+
+  .main {
+  display: flex;
+  gap: 10px;
+  height: 500px;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 8px 0;
+}
+
+.main-left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background: lightcoral;
+  border: 1px solid brown;
+}
+
+.main-content {
+  flex: 3;
+  background: #FED8B1;
+  border: 1px solid brown;
+}
+  
+.main-bottom-left {
+  flex: 1;
+  background: #FED8B1;
+  border: 1px solid brown;
+}
+
+.main-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-sidebar,
+.main-bottom-right {
+  flex: 1 ;
+  background: lightcoral;
+  border: 1px solid brown;
+}
+
+.footer {
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  background: #ABD7EB;
+  border: 1px solid darkgreen;
+  padding: 8px;
+}
+  
+.footer-section-center {
+  flex: 1;
+  background: #FED8B1;
+  border: 1px solid brown;
+}
+
+.footer-section-right, .footer-section-left {
+  flex: 2;
+  background: aqua;
+  border: 1px solid brown;
+}
