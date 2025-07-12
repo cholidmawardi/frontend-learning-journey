@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.box {
+  width: 200px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.box-green {
+  background-color: #10b981;
+  margin: 0;
+}
+
+.box-yellow {
+  background-color: #f59e0f;
+  margin: 0;
+}
+
+.box-dark {
+  background-color: #333;
+}
