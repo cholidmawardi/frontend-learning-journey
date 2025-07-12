@@ -1,19 +1,20 @@
-# 04 - Flex Wrap (Basic)
+# 04 - Flex Wrap: Responsive Feature Cards
 
-This project demonstrates how to use `flex-wrap` to make a layout responsive with flexible cards.
+This project demonstrates the use of `flex-wrap` to create a clean, responsive card layout — without relying on media queries.
 
-## 🔍 Features
+### ✨ Features
+- Responsive layout using `flex-wrap`
+- Card grid auto-wraps on smaller screens
+- Semantic HTML and clean CSS
+- Subtle shadow and spacing for modern UI
+- Custom content and personal branding
 
-- Responsive layout using Flexbox
-- `flex: 1 1 250px` ensures each card can grow or shrink based on available space
-- `flex-wrap: wrap` automatically moves cards to the next line on smaller screens
-- Clean spacing using `gap` property
-- Minimal styling with soft shadows and rounded corners
+> Part of the [frontend-learning-journey](https://github.com/cholidmawardi/frontend-learning-journey) — built with focus and clarity.
 
-## 💡 Notes
+### 🔗 Live Preview
 
-No media queries are needed in this basic version — the layout is naturally responsive because of the `wrap` behavior.
+[See it live →](https://cholidmawardi.github.io/frontend-learning-journey/02-flexbox/04-flex-wrap/)
 
-## 🌐 Live Preview
+---
 
-[See it live](https://cholidmawardi.github.io/frontend-learning-journey/02-flexbox/04-flex-wrap/)
+© 2025 Cholid Mawardi · BuildWithCholid
