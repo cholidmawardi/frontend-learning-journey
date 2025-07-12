@@ -1,13 +1,16 @@
-# 04 - Flex Wrap: Responsive Feature Cards
+# 04 - Flex Wrap (Responsive Version)
 
-This project demonstrates the use of `flex-wrap` to create a clean, responsive card layout — without relying on media queries.
+A responsive and branded layout using `flex-wrap` and media queries.  
+This version expands the previous layout by introducing real content, personal branding, and mobile-first responsiveness.
 
-### ✨ Features
-- Responsive layout using `flex-wrap`
-- Card grid auto-wraps on smaller screens
-- Semantic HTML and clean CSS
-- Subtle shadow and spacing for modern UI
-- Custom content and personal branding
+![screenshot](./assets/preview.png) 
+
+### 💡 Highlights
+- Responsive grid layout using `flex-wrap`
+- Mobile-friendly layout with media queries
+- Custom color scheme and font
+- Subtle hover interaction for cards
+- Personal logo and tagline integration
 
 > Part of the [frontend-learning-journey](https://github.com/cholidmawardi/frontend-learning-journey) — built with focus and clarity.
 
