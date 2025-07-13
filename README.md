@@ -28,16 +28,18 @@ frontend-learning-journey/
 │   ├── 02-typography-colors/
 │   ├── 03-layout-padding-margin/
 │   └── README.md
-├── 02-flexbox/
+├── 02-flexbox/                  # Flexbox concepts and UI layout
 │   ├── 01-intro-flex/
 │   ├── 02-flex-grow-shrink/
+│   ├── 03-flex-alignment/
+│   ├── 04-flex-wrap/
 │   └── README.md
-├── 03-grid/
-├── 04-js-basics/
-├── 05-dom-events/
-├── 06-advanced-js/
-├── 07-react/
-├── 08-node-express/
+├── 03-grid/                     # Coming soon
+├── 04-js-basics/                # Coming soon
+├── 05-dom-events/               # Coming soon
+├── 06-advanced-js/              # Coming soon
+├── 07-react/                    # Coming soon
+├── 08-node-express/             # Coming soon
 └── README.md
 ```
 
