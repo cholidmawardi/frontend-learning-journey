@@ -35,4 +35,4 @@ Each subfolder contains a specific topic along with a practical mini project to 
 > “Mastering layout with margin and padding is more impactful than writing clever JavaScript —  
 > because if the structure is broken, nothing else matters.”
 
-This foundation ensures you don’t just “style” a page, but understand how to **compose** it like a professional.
+This foundation ensures I don’t just “style” a page, but understand how to **compose** it like a professional.
