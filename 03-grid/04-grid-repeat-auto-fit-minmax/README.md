@@ -27,4 +27,4 @@ Each `.grid-card` item is placed inside a grid container that automatically adju
 
 ## 🔍 Preview
 
-You can view the live preview [here](https://cholidmawardi.github.io/frontend-learning-journey/03-grid/04-repeat-auto-fit-minmax/) 
+You can view the live preview [here](https://cholidmawardi.github.io/frontend-learning-journey/03-grid/04-grid-repeat-auto-fit-minmax/) 
