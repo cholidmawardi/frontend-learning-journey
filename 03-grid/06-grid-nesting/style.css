@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Inter', 'Times New Roman', sans-serif;
+    padding: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto 1fr auto; /* "auto" means height adapts to the content's size */
+    gap: 1rem;
+    min-height: 100vh;
+}
+
+.grid-container div {
+    text-align: center;
+    font-weight: 600;
+}
+
+.header {
+    background-color: #3b83f6;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    grid-column: 1 / -1; /* Full width: span from left (first line) to right edge of the grid (last line) */
+}
+
+.sidebar {
+    background-color: #1f2937;
+    grid-row: 2 / 3; /* Sidebar and main share the same row (row) */
+    padding: 1rem;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.main {
+    background-color: #f9f9f9;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.card {
+    display: grid;
+    place-items: center;
+    background-color: #e5e7eb;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 8px;
+    height: 150px; /* Fixed height for cards */
+}
+
+.footer {
+    background-color: #fcd34d;
+    padding: 1rem;
+    border-radius: 8px;
+    grid-column: 1 / -1; /* Full width: span from left (first line) to right edge of the grid (last line) */
+}
+
+/* Responsive layout for small screens */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-rows: auto auto auto auto; 
+    grid-template-columns: 1fr;
+
+  }
+
+  .header,
+  .footer {
+    grid-column: 1;
+
+  }
+
+  .sidebar {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+  .main {
+    grid-column: 1;
+    grid-row: auto;
+  }
+
+}
