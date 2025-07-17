@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Inter', 'Times New Roman', sans-serif;
+    padding: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* auto-fit: allows grid items (grid-card) to fill available space. When there's extra space, columns stretch to occupy it (even if empty).
+       
+       minmax(200px, 1fr): defines a minimum column width of 200px, and allows it to grow up to a flexible fraction (1fr) of the container.
+       
+       Combined together, auto-fit + minmax enables a fully responsive layout without using media queries.
+    */
+    gap: 1rem;
+}
+
+.grid-card {
+    background-color: #1f2937;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.5rem;
+    color: #f0f0f0;
+    text-align: center;
+    font-weight: 600;
+}
