@@ -46,4 +46,4 @@ This project demonstrates a responsive page layout using CSS Grid. The layout co
 
 ## Live Preview
 
-[View Demo](https://cholidmawardi.github.io/frontend-learning-journey/03-grid/05-responsive-layout/)
+[View Demo](https://cholidmawardi.github.io/frontend-learning-journey/03-grid/05-responsive-grid-layout/)
