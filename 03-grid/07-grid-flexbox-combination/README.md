@@ -20,8 +20,8 @@ The main goal of this project is to:
 
 - **HTML5** – Semantic and accessible structure
 - **CSS3** – Pure CSS with custom styling
-  - `display: flex` for header and footer alignment
-  - `display: grid` for hero section, feature cards, and testimonials
+  - `display: flex` for header, hero and footer alignment
+  - `display: grid` for feature cards, and testimonials
 - Responsive techniques with **media queries**
 - Mobile-first mindset
 
@@ -64,7 +64,7 @@ The layout adapts from desktop to mobile using:
 
 ## 🔍 Screenshot
 
-![Preview of the project layout](./assets/images/preview.png)
+![Preview of the project layout](./assets/preview.png)
 
 ---
 
